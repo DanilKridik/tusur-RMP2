@@ -37,7 +37,27 @@ namespace lab2
             TextView textView = new TextView(Context);
             textView.SetText(viewsCount.ToString(), TextView.BufferType.Normal);
             viewsCount++;
-            AddView(textView);
+        }
+
+        protected override IParcelable OnSaveInstanceState()
+        {
+            SavedState state = (SavedState)base.OnSaveInstanceState();
+            state.ViewsCount = viewsCount;
+            return state;
+        }
+
+        protected override void OnRestoreInstanceState(IParcelable state)
+        {
+            if (!(state is SavedState))
+            {
+                base.OnRestoreInstanceState(state);
+                return;
+            }
+            SavedState s = (SavedState)state;
+            base.OnRestoreInstanceState (state);
+
+            for (int i = 0; i < s.ViewsCount; i++)
+                IncrementViews();
         }
     }
 }
