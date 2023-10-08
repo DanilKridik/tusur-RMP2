@@ -6,14 +6,7 @@
     android:minHeight="25px"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/linearLayout1">
-    <TextView
-        android:text="Your History"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="15sp"
-        android:textAlignment="textEnd"
-        android:id="@+id/TextViewUserInputHistory" />
+    android:id="@+id/linearLayout1"> />
     <TextView
         android:text="Start"
         android:layout_width="match_parent"
@@ -21,5 +14,4 @@
         android:id="@+id/TextViewInput" 
         android:textSize="30sp"
         android:textAlignment="textEnd"/>
-
 </LinearLayout>

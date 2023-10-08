@@ -314,3 +314,5 @@ G:\apps\Repos\tusur-RMP2\Calculator\Calculator\obj\Debug\130\stamp\_GeneratePack
 G:\apps\Repos\tusur-RMP2\Calculator\Calculator\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
 G:\apps\Repos\tusur-RMP2\Calculator\Calculator\obj\Debug\130\res\layout\userbuttons.xml
 G:\apps\Repos\tusur-RMP2\Calculator\Calculator\obj\Debug\130\res\layout\userresult.xml
+G:\apps\Repos\tusur-RMP2\Calculator\Calculator\obj\Debug\130\android\assets\Mono.Android.Export.dll
+G:\apps\Repos\tusur-RMP2\Calculator\Calculator\obj\Debug\130\android\assets\Mono.Android.Export.pdb
