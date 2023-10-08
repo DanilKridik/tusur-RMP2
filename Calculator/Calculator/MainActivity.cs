@@ -1,7 +1,10 @@
 ﻿using Android.App;
+using Android.Media.Metrics;
 using Android.OS;
 using Android.Runtime;
+using Android.Widget;
 using AndroidX.AppCompat.App;
+using System;
 
 namespace Calculator
 {
