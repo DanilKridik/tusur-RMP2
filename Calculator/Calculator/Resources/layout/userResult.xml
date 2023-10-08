@@ -8,17 +8,17 @@
     android:layout_height="wrap_content"
     android:id="@+id/linearLayout1">
     <TextView
-        android:text="2+3+4+5"
+        android:text="Your History"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="15sp"
         android:textAlignment="textEnd"
         android:id="@+id/TextViewUserInputHistory" />
     <TextView
-        android:text="14"
+        android:text="Start"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/TextViewResult" 
+        android:id="@+id/TextViewInput" 
         android:textSize="30sp"
         android:textAlignment="textEnd"/>
 
