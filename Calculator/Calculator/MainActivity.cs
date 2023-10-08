@@ -55,13 +55,17 @@ namespace Calculator
 
             if ("012345678900.".Contains(button.Text))
                 AddNumber(button.Text);
-            else if ("+-/X".Contains(button.Text))
+            else if ("+-/Xmoddiv√%".Contains(button.Text))
+                AddOperator(button.Text);
+            else if ("To 2CC" == button.Text)
                 AddOperator(button.Text);
             else if ("=" == button.Text)
                 Calculate();
             else
                 DefaultView();
         }
+
+        
 
         /// <summary>
         /// Добавляет число в TextView.
@@ -112,9 +116,22 @@ namespace Calculator
                 case "+":
                     result = first + second;
                     break;
-                case "−":
+                case "-":
                     result = first - second;
                     break;
+                case "mod":
+                    result = first % second;
+                    break;
+                case "div":
+                    result = Convert.ToInt32(first / second);
+                    break;
+                case "√":
+                    result = Math.Sqrt((double)first);
+                    break;
+                case "%":
+                    result = first / second * 100;
+                    break;
+
             }
             if (result != null)
             {
