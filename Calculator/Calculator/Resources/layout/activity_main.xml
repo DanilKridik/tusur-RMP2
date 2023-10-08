@@ -11,4 +11,8 @@
         layout="@layout/userResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <include
+        layout="@layout/userbuttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
